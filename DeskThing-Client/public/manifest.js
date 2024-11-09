@@ -1,11 +1,11 @@
 window.manifest = {
-  "name": "Deskthing Client",
+  "name": "Raspberrypi Deskthing Client",
   "id": "deskthing",
   "short_name": "DT",
   "description": "The base DeskthingUI for the DeskThing",
-  "builtFor": "Spotify Car Thing",
+  "builtFor": "Raspberrypi",
   "reactive": true,
-  "author": "Riprod",
+  "authors": ["Riprod", "DaofficialWizard"],
   "version": "v0.9.0",
   "version_code": 900,
   "compatible_server": [9],
@@ -13,5 +13,5 @@ window.manifest = {
   "ip": "localhost",
   "default_view": "landing",
   "miniplayer": "peek",
-  "device_type": {"id": 4, "name": "CarThing"}
+  "device_type": {"id": 4, "name": "Desk Thing"}
 }
